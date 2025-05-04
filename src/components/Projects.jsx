@@ -4,7 +4,7 @@ import project1 from '../assets/project1.png'
 import project2 from '../assets/project2.png'
 import project3 from '../assets/project3.png'
 import project4 from '../assets/project4.png'
-import Gradient from '../assets/gradient.png'
+import Gradient from '../assets/Gradient.png'
 import StarBorder from '../components/StarBorder'
 import { FaArrowTrendUp } from "react-icons/fa6";
 import { CiGlobe } from "react-icons/ci";
