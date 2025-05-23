@@ -12,8 +12,8 @@ const Contact = () => {
             <h1 className='text-4xl font-bold text-blue-500 pl-5 lg:pl-0'>Contact</h1>
             <div className='relative flex flex-col justify-center items-center'>
                 <div className='flex justify-center items-center absolute top-10 z-10'>
-                    <form action="https://formspree.io/f/xvgzlzbj" method="POST" className='flex flex-col bg-[#110a1cb8] justify-center items-center p-5  py-10 gap-4 rounded-4xl lg:max-w-[900px] max-w-[95%] xl:mx-0 sm:mx-10 mx-5' onSubmit={function (e) {
-                        e.target.reset();
+                    <form action="https://formspree.io/f/xvgzlzbj" method="POST" className='flex flex-col bg-[#110a1cb8] justify-center items-center p-5  py-10 gap-4 rounded-4xl lg:max-w-[900px] max-w-[95%] xl:mx-0 sm:mx-10 mx-5' onSubmit={(e) => {
+                        setTimeout(() => e.target.reset(), 100);
                     }}>
                         <div className='flex sm:max-w-[80%] max-w-[95%] justify-center items-start'>
                             <div className=''>
