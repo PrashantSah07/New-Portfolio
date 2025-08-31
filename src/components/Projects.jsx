@@ -4,7 +4,7 @@ import disneyProject from '../assets/disneyProject.png'
 import project1 from '../assets/project1.png'
 import project2 from '../assets/project2.png'
 import project3 from '../assets/project3.png'
-import project4 from '../assets/project4.png'
+import urlshortner from '../assets/urlshortner.png'
 import Gradient from '../assets/Gradient.png'
 import StarBorder from '../components/StarBorder'
 import { FaArrowTrendUp } from "react-icons/fa6";
@@ -89,15 +89,15 @@ const Projects = () => {
 
             <motion.div className='lg:grid grid-cols-2 flex flex-col-reverse sm:my-20 my-10 items-center sm:static relative' initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} viewport={{ once: false }} transition={{ duration: 1 }}>
                 <div className=" bg-[#1e123291] h-fit p-4 lg:pr-10 sm:rounded-2xl rounded-b-2xl sm:relative lg:left-10 lg:top-10 md:right-27 right-10 top-2 md:w-[70%] sm:w-[80%] lg:w-full">
-                    <h2 className="text-xl font-bold mb-2 bg-gradient-to-tr from-white to-pink-500 bg-clip-text text-transparent">E-commerce</h2>
-                    <p className="text-gray-400 mb-4 text-[13px] sm:text-[16px]">The E-commerce <span className='text-yellow-400 font-medium'>Shopper</span> App allows users to browse products, apply filters, add items to the cart, and place orders easily. It features a clean, responsive <span className='text-orange-600 font-medium'>design</span> and real-time product data, built using React.js and TailwindCSS.</p>
+                    <h2 className="text-xl font-bold mb-2 bg-gradient-to-tr from-white to-pink-500 bg-clip-text text-transparent">URL shortner</h2>
+                    <p className="text-gray-400 mb-4 text-[13px] sm:text-[16px]">A fast and <span className='text-yellow-400 font-medium'>user-friendly</span> web app that shortens long URLs into simple, <span className='text-green-400 font-medium'>shareable links.</span> It offers a clean, responsive design for better usability and secure, real-time <span className='text-orange-600 font-medium'>link generation.</span> Built with Next.js, MongoDB, and TailwindCSS.</p>
                     <div className='flex gap-2'>
-                        <a target='_blank' href="https://e-commerce-with-react-henna.vercel.app/">
+                        <a target='_blank' href="https://easyurl.vercel.app/">
                             <StarBorder as="div" className="custom-class" color="white" speed="5s">
                                 <button className='flex items-center justify-center px-3 gap-2 py-1 rounded-3xl bg-[#3a393c3f] duration-100'><CiGlobe size={25} /><FaArrowTrendUp size={15} /></button>
                             </StarBorder>
                         </a>
-                        <a target='_blank' href="https://github.com/PrashantSah07/E-commerce-With-React">
+                        <a target='_blank' href="https://github.com/PrashantSah07/URL-Shortner">
                             <StarBorder as="div" className="custom-class" color="white" speed="5s">
                                 <button className='flex items-center justify-center px-3 py-1 gap-2 rounded-3xl bg-[#3a393c3f] duration-100'><LuGithub size={25} /><FaArrowTrendUp size={15} /></button>
                             </StarBorder>
@@ -105,26 +105,26 @@ const Projects = () => {
                     </div>
                 </div>
                 <div className={`sm:rounded-2xl rounded-t-2xl bg-[#2b0b3a8b] pl-5 pt-5 sm:relative sm:w-[80%] lg:w-full md:left-15 left-10 lg:left-0`}>
-                    <img className="w-full object-contain rounded-xl relative z-10" src={project3} alt="E-commerce" />
+                    <img className="w-full object-contain rounded-xl relative z-10" src={urlshortner} alt="E-commerce" />
                     <img className='absolute lg:-top-30 lg:right-70  sm:-top-40 -top-25  lg:w-[550px] w-full' src={Gradient} alt="" />
                 </div>
             </motion.div>
 
             <motion.div className='lg:grid grid-cols-2 flex flex-col sm:mt-20 mt-10 items-center sm:static relative' initial={{ y: 100, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} viewport={{ once: false }} transition={{ duration: 1 }}>
                 <div className={`sm:rounded-2xl rounded-t-2xl bg-[#2b0b3a8b] pr-5 pt-5 sm:relative z-10 sm:w-[80%] lg:w-full md:right-15 right-10 lg:right-0`}>
-                    <img className="w-full object-contain rounded-xl relative z-10" src={project4} alt="Flight Agency Website" />
+                    <img className="w-full object-contain rounded-xl relative z-10" src={project3} alt="Flight Agency Website" />
                     <img className='absolute lg:-top-30 lg:left-70  sm:-top-40 -top-25 lg:w-[550px] w-full' src={Gradient} alt="" />
                 </div>
                 <div className=" bg-[#1e123291] h-fit p-4 sm:rounded-2xl rounded-b-2xl sm:relative lg:right-10 lg:top-10 z-0 md:w-[70%] sm:w-[80%] lg:w-full md:left-27 left-10 lg:left-0 top-2">
-                    <h2 className="text-xl font-bold mb-2 bg-gradient-to-tr from-white to-pink-500 bg-clip-text text-transparent text-right">Uber Clone</h2>
-                    <p className="text-gray-400 mb-4 text-right lg:pl-7 text-[13px] sm:text-[16px]">The Uber Clone App mimics a <span className='text-red-500 font-medium'>ride-hailing</span> platform, enabling users to book rides, track drivers, and view fare estimates. It features a clean UI and real-time location <span className='text-amber-400 font-medium'>tracking</span>. Built with <span className='font-medium'>HTML</span>, <span className='font-medium'>CSS</span>, and vanilla <span className='font-medium'>JavaScript</span> for a lightweight and <span className='text-blue-600 font-medium'>efficient experience.</span></p>
+                    <h2 className="text-xl font-bold mb-2 bg-gradient-to-tr from-white to-pink-500 bg-clip-text text-transparent text-right">E-commerce</h2>
+                    <p className="text-gray-400 mb-4 text-right lg:pl-7 text-[13px] sm:text-[16px]">The E-commerce <span className='text-yellow-400 font-medium'>Shopper</span> App allows users to browse products, apply filters, add items to the cart, and place orders easily. It features a clean, responsive <span className='text-orange-600 font-medium'>design</span> and real-time product data, built using React.js and TailwindCSS.</p>
                     <div className='flex gap-2 justify-end'>
-                        <a target='_blank' href="https://uberr-clone.vercel.app/">
+                        <a target='_blank' href="https://e-commerce-with-react-henna.vercel.app/">
                             <StarBorder as="div" className="custom-class" color="white" speed="5s">
                                 <button className='flex items-center justify-center px-3 gap-2 py-1 rounded-3xl bg-[#3a393c3f] duration-100'><CiGlobe size={25} /><FaArrowTrendUp size={15} /></button>
                             </StarBorder>
                         </a>
-                        <a target='_blank' href="https://github.com/PrashantSah07/Uber-Clone">
+                        <a target='_blank' href="https://github.com/PrashantSah07/E-commerce-With-React">
                             <StarBorder as="div" className="custom-class" color="white" speed="5s">
                                 <button className='flex items-center justify-center px-3 py-1 gap-2 rounded-3xl bg-[#3a393c3f] duration-100'><LuGithub size={25} /><FaArrowTrendUp size={15} /></button>
                             </StarBorder>
