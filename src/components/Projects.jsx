@@ -5,6 +5,7 @@ import project1 from '../assets/project1.png'
 import project2 from '../assets/project2.png'
 import project3 from '../assets/project3.png'
 import urlshortner from '../assets/urlshortner.png'
+import sportify from '../assets/sportify.png'
 import Gradient from '../assets/Gradient.png'
 import StarBorder from '../components/StarBorder'
 import { FaArrowTrendUp } from "react-icons/fa6";
@@ -66,19 +67,19 @@ const Projects = () => {
 
             <motion.div className='lg:grid grid-cols-2 flex flex-col sm:my-20 my-10 items-center sm:static relative' initial={{ x: 100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} viewport={{ once: false }} transition={{ duration: 1 }}>
                 <div className={`sm:rounded-2xl rounded-t-2xl bg-[#2b0b3a8b] pr-5 pt-5  sm:relative z-10 sm:w-[80%] lg:w-full md:right-15 right-10 lg:right-0`}>
-                    <img className="w-full object-contain rounded-xl relative z-10" src={project2} alt="Beautify Store" />
+                    <img className="w-full object-contain rounded-xl relative z-10" src={sportify} alt="Beautify Store" />
                     <img className='absolute lg:-top-30 lg:left-70  sm:-top-40 -top-25 lg:w-[550px] w-full' src={Gradient} alt="" />
                 </div>
                 <div className=" bg-[#1e123291] h-fit p-4 sm:rounded-2xl rounded-b-2xl sm:relative lg:right-10 lg:top-10 z-0 md:w-[70%] sm:w-[80%] lg:w-full md:left-27 left-10 lg:left-0 top-2">
-                    <h2 className="text-xl font-bold mb-2 bg-gradient-to-tr from-white to-pink-500 bg-clip-text text-transparent text-right">Beautify Store</h2>
-                    <p className="text-gray-400 mb-4 text-right lg:pl-5 text-[13px] sm:text-[16px]">A stylish beauty products website featuring <span className='text-yellow-500 font-medium'>makeup items</span> like mascara, lipstick, <span className='text-red-600 font-medium'>foundation</span>, and more.Users can filter products by category and easily add favorites to the cart.Clean design with smooth navigation and responsive layout for seamless <span className='text-green-500 font-medium'>shopping</span> experience.</p>
+                    <h2 className="text-xl font-bold mb-2 bg-gradient-to-tr from-white to-pink-500 bg-clip-text text-transparent text-right">Sportify - Music for everyone</h2>
+                    <p className="text-gray-400 mb-4 text-right lg:pl-5 text-[13px] sm:text-[16px]">A modern <span className='text-[#fc0543]'>music streaming</span> web app  with unlimited,<span className='text-green-500 font-medium'> ad-free songs.</span> Users can instantly search tracks, filter by genres, and <span className='text-yellow-500 font-medium'>enjoy</span> smooth non-stop listening. Features include <span className='text-blue-500 font-medium'>recently played</span>, personalized recommendations, and a fully responsive design for all devices.</p>
                     <div className='flex gap-2 justify-end'>
-                        <a target='_blank' href="https://beautify-store.vercel.app/">
+                        <a target='_blank' href="https://sportifymusic.vercel.app/">
                             <StarBorder as="div" className="custom-class" color="white" speed="5s">
                                 <button className='flex items-center justify-center px-3 gap-2 py-1 rounded-3xl bg-[#3a393c3f] duration-100'><CiGlobe size={25} /><FaArrowTrendUp size={15} /></button>
                             </StarBorder>
                         </a>
-                        <a target='_blank' href="https://github.com/PrashantSah07/Beautify-Store">
+                        <a target='_blank' href="https://github.com/PrashantSah07/Sportify-Music_for_everyone">
                             <StarBorder as="div" className="custom-class" color="white" speed="5s">
                                 <button className='flex items-center justify-center px-3 py-1 gap-2 rounded-3xl bg-[#3a393c3f] duration-100'><LuGithub size={25} /><FaArrowTrendUp size={15} /></button>
                             </StarBorder>
@@ -110,15 +111,34 @@ const Projects = () => {
                 </div>
             </motion.div>
 
-            <motion.div className='lg:grid grid-cols-2 flex flex-col sm:mt-20 mt-10 items-center sm:static relative' initial={{ y: 100, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} viewport={{ once: false }} transition={{ duration: 1 }}>
-                <div className={`sm:rounded-2xl rounded-t-2xl bg-[#2b0b3a8b] pr-5 pt-5 sm:relative z-10 sm:w-[80%] lg:w-full md:right-15 right-10 lg:right-0`}>
-                    <img className="w-full object-contain rounded-xl relative z-10" src={project3} alt="Flight Agency Website" />
+            <motion.div className='lg:grid grid-cols-2 flex flex-col sm:my-20 my-10 items-center sm:static relative' initial={{ x: 100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} viewport={{ once: false }} transition={{ duration: 1 }}>
+                <div className={`sm:rounded-2xl rounded-t-2xl bg-[#2b0b3a8b] pr-5 pt-5  sm:relative z-10 sm:w-[80%] lg:w-full md:right-15 right-10 lg:right-0`}>
+                    <img className="w-full object-contain rounded-xl relative z-10" src={project2} alt="Beautify Store" />
                     <img className='absolute lg:-top-30 lg:left-70  sm:-top-40 -top-25 lg:w-[550px] w-full' src={Gradient} alt="" />
                 </div>
                 <div className=" bg-[#1e123291] h-fit p-4 sm:rounded-2xl rounded-b-2xl sm:relative lg:right-10 lg:top-10 z-0 md:w-[70%] sm:w-[80%] lg:w-full md:left-27 left-10 lg:left-0 top-2">
-                    <h2 className="text-xl font-bold mb-2 bg-gradient-to-tr from-white to-pink-500 bg-clip-text text-transparent text-right">E-commerce</h2>
-                    <p className="text-gray-400 mb-4 text-right lg:pl-7 text-[13px] sm:text-[16px]">The E-commerce <span className='text-yellow-400 font-medium'>Shopper</span> App allows users to browse products, apply filters, add items to the cart, and place orders easily. It features a clean, responsive <span className='text-orange-600 font-medium'>design</span> and real-time product data, built using React.js and TailwindCSS.</p>
+                    <h2 className="text-xl font-bold mb-2 bg-gradient-to-tr from-white to-pink-500 bg-clip-text text-transparent text-right">Beautify Store</h2>
+                    <p className="text-gray-400 mb-4 text-right lg:pl-5 text-[13px] sm:text-[16px]">A stylish beauty products website featuring <span className='text-yellow-500 font-medium'>makeup items</span> like mascara, lipstick, <span className='text-red-600 font-medium'>foundation</span>, and more.Users can filter products by category and easily add favorites to the cart.Clean design with smooth navigation and responsive layout for seamless <span className='text-green-500 font-medium'>shopping</span> experience.</p>
                     <div className='flex gap-2 justify-end'>
+                        <a target='_blank' href="https://beautify-store.vercel.app/">
+                            <StarBorder as="div" className="custom-class" color="white" speed="5s">
+                                <button className='flex items-center justify-center px-3 gap-2 py-1 rounded-3xl bg-[#3a393c3f] duration-100'><CiGlobe size={25} /><FaArrowTrendUp size={15} /></button>
+                            </StarBorder>
+                        </a>
+                        <a target='_blank' href="https://github.com/PrashantSah07/Beautify-Store">
+                            <StarBorder as="div" className="custom-class" color="white" speed="5s">
+                                <button className='flex items-center justify-center px-3 py-1 gap-2 rounded-3xl bg-[#3a393c3f] duration-100'><LuGithub size={25} /><FaArrowTrendUp size={15} /></button>
+                            </StarBorder>
+                        </a>
+                    </div>
+                </div>
+            </motion.div>
+
+            <motion.div className='lg:grid grid-cols-2 flex flex-col-reverse sm:my-20 my-10 items-center sm:static relative' initial={{ x: -100, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} viewport={{ once: false }} transition={{ duration: 1 }}>
+                <div className=" bg-[#1e123291] h-fit p-4 lg:pr-10 sm:rounded-2xl rounded-b-2xl sm:relative lg:left-10 lg:top-10 md:right-27 right-10 top-2 md:w-[70%] sm:w-[80%] lg:w-full">
+                    <h2 className="text-xl font-bold mb-2 bg-gradient-to-tr from-white to-pink-500 bg-clip-text text-transparent">E-commerce</h2>
+                    <p className="text-gray-400 mb-4 text-[13px] sm:text-[16px]">The E-commerce <span className='text-yellow-400 font-medium'>Shopper</span> App allows users to browse products, apply filters, add items to the cart, and place orders easily. It features a clean, responsive <span className='text-orange-600 font-medium'>design</span> and real-time product data, built using React.js and TailwindCSS.</p>
+                    <div className='flex gap-2'>
                         <a target='_blank' href="https://e-commerce-with-react-henna.vercel.app/">
                             <StarBorder as="div" className="custom-class" color="white" speed="5s">
                                 <button className='flex items-center justify-center px-3 gap-2 py-1 rounded-3xl bg-[#3a393c3f] duration-100'><CiGlobe size={25} /><FaArrowTrendUp size={15} /></button>
@@ -131,9 +151,13 @@ const Projects = () => {
                         </a>
                     </div>
                 </div>
+                <div className={`sm:rounded-2xl rounded-t-2xl bg-[#2b0b3a8b] pl-5 pt-5 sm:relative sm:w-[80%] lg:w-full md:left-15 left-10 lg:left-0`}>
+                    <img className="w-full object-contain rounded-xl relative z-10" src={project3} alt="Flight Agency Website" />
+                    <img className='absolute lg:-top-30 lg:left-70  sm:-top-40 -top-25 lg:w-[550px] w-full' src={Gradient} alt="" />
+                </div>
             </motion.div>
         </div>
     )
 }
 
-export default Projects
+export default Projects;
