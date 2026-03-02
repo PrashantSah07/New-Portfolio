@@ -99,9 +99,7 @@ const About = () => {
                                     </button>
                                 </a>
                             </StarBorder>
-
                         </div>
-
                     </div>
                 </div>
             </div>
