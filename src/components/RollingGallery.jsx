@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 import { motion, useMotionValue, useAnimation, useTransform } from "framer-motion";
 import html from '../assets/html.png';
 import css from '../assets/css.png';

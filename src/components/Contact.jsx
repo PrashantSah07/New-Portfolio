@@ -78,7 +78,7 @@ const Contact = () => {
                             <input type="hidden" name="_next" value="https://your-website.com/thank-you" />
                             <input className='px-7 py-3 w-full rounded-lg relative z-10' type="submit" value="SEND" />
                             <span
-                                className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-tr from-blue-500 via-purple-600 to-pink-500 transform scale-0 origin-bottom-left transition-transform duration-500 group-hover:scale-100 rounded-3xl"
+                                className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-tr from-blue-500 via-purple-600 to-pink-500 transform scale-0 origin-bottom-left transition-transform duration-500 group-hover:scale-100 rounded-2xl"
                             />
                         </StarBorder>
                     </form>

@@ -33,7 +33,7 @@ const Navbar = () => {
                     className='custom-class'>
                     DESTINY
                 </GlitchText>
-                <div className='hidden lg:flex'>
+                <div className='lg:flex hidden'>
                     <ul className='flex items-center gap-2'>
                         <a href="#">
                             <StarBorder as="div" className="custom-class" color="white" speed="5s">
@@ -62,7 +62,7 @@ const Navbar = () => {
                         </a>
                     </ul>
                 </div>
-                <div className={`flex lg:hidden flex-col duration-300 ${isShow ? 'gap-0' : 'gap-1.5'}`} onClick={function () {
+                <div className={`lg:hidden flex flex-col duration-300 ${isShow ? 'gap-0' : 'gap-1.5'}`} onClick={function () {
                     setIsShow(!isShow)
                 }}>
                     <span className={`bg-white h-1 w-6  duration-300 ${isShow && 'rotate-45 absolute'}`} ></span>
@@ -71,8 +71,8 @@ const Navbar = () => {
             </div>
 
 
-            <div className={`backdrop-blur-sm bg-white/1 lg:hidden flex justify-center items-center h-full  w-[100%] fixed top-0 z-50 duration-300 ${isShow ? 'translate-x-[0%]' : 'translate-x-[100%]'}`} onClick={function () { setIsShow(false) }}>
-                <ul className='bg-black border-[#ffffff3c] border-1  flex flex-col items-center gap-2 w-[90%] py-20 sm:px-20 px-10 rounded-3xl relative overflow-hidden' onClick={function (e) { e.stopPropagation(); }}>
+            <div className={`backdrop-blur-sm bg-white/1 lg:hidden flex justify-center items-center h-full w-[100%] fixed top-0 z-50 ${isShow ? 'opacity-100 pointer-events-auto' : 'opacity-0 pointer-events-none'} duration-300`} onClick={function () { setIsShow(false) }}>
+                <ul className={`bg-black border-[#ffffff3c] border-1  flex flex-col items-center gap-2 w-[90%] py-20 sm:px-20 px-10 rounded-3xl relative overflow-hidden ${isShow ? 'translate-x-[0%]' : 'translate-x-[100%]'} duration-300`} onClick={function (e) { e.stopPropagation(); }}>
                     <img src={Gradient} className='absolute -left-30 -top-40' alt="" />
                     <a href="#" className='w-full'>
                         <StarBorder as="div" className="custom-class w-full" color="white" speed="5s">

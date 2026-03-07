@@ -26,7 +26,7 @@ const About = () => {
                                         className="hover:scale-[1.1] hover:bg-white hover:text-black duration-200 rounded-2xl sm:p-3 p-2"
                                         initial={{ y: 30, opacity: 0 }}
                                         whileInView={{ y: 0, opacity: 1 }}
-                                        viewport={{ once: false}}
+                                        viewport={{ once: false }}
                                         transition={{ duration: 0.5, delay: 0.1 }}>
                                         <LuGithub size={30} />
                                     </motion.button>
@@ -38,7 +38,7 @@ const About = () => {
                                         className="hover:scale-[1.1] duration-200 sm:p-3 p-2  rounded-2xl hover:bg-blue-600"
                                         initial={{ y: 30, opacity: 0 }}
                                         whileInView={{ y: 0, opacity: 1 }}
-                                        viewport={{ once: false}}
+                                        viewport={{ once: false }}
                                         transition={{ duration: 0.5, delay: 0.2 }}>
                                         <CiLinkedin size={30} />
                                     </motion.button>
@@ -51,7 +51,7 @@ const About = () => {
                                         className="hover:scale-[1.1] duration-200 sm:p-3 p-2  rounded-2xl hover:bg-gradient-to-tr from-yellow-400 via-pink-500 to-purple-600"
                                         initial={{ y: 30, opacity: 0 }}
                                         whileInView={{ y: 0, opacity: 1 }}
-                                        viewport={{ once: false}}
+                                        viewport={{ once: false }}
                                         transition={{ duration: 0.5, delay: 0.3 }}>
                                         <AiOutlineInstagram size={30} />
                                     </motion.button>
@@ -65,7 +65,7 @@ const About = () => {
                                         className="hover:scale-[1.1] duration-200 sm:p-3 p-2  rounded-2xl hover:bg-green-500"
                                         initial={{ y: 30, opacity: 0 }}
                                         whileInView={{ y: 0, opacity: 1 }}
-                                        viewport={{ once: false}}
+                                        viewport={{ once: false }}
                                         transition={{ duration: 0.5, delay: 0.4 }}>
                                         <FaWhatsapp size={30} />
                                     </motion.button>
@@ -78,7 +78,7 @@ const About = () => {
                                         className="hover:scale-[1.1] duration-200 sm:p-3 p-2  rounded-2xl hover:bg-gradient-to-tr from-blue-400 via-purple-500 to-pink-500"
                                         initial={{ y: 30, opacity: 0 }}
                                         whileInView={{ y: 0, opacity: 1 }}
-                                        viewport={{ once: false}}
+                                        viewport={{ once: false }}
                                         transition={{ duration: 0.5, delay: 0.5 }}>
                                         <IoMailOutline size={30} />
                                     </motion.button>
@@ -92,7 +92,7 @@ const About = () => {
                                     <button className="relative overflow-hidden py-4 px-10 text-white rounded-lg group">
                                         {/* animated background */}
                                         <span
-                                            className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-tr from-blue-500 via-purple-600 to-pink-500 transform scale-0 origin-bottom-left transition-transform duration-500 group-hover:scale-100 rounded-3xl"
+                                            className="absolute bottom-0 left-0 w-full h-full bg-gradient-to-tr from-blue-500 via-purple-600 to-pink-500 transform scale-0 origin-bottom-left transition-transform duration-500 group-hover:scale-100 rounded-2xl"
                                         />
                                         {/* button label */}
                                         <span className="relative z-10">GET CV</span>
